@@ -1,0 +1,72 @@
+.container {
+    margin-top: 20px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    background-color: #aa0047;
+    border-color: #aa0047;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #000;
+    border-color: #000;
+    color: #fff; /* Ensure the text remains readable */
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
+    gap: 10px; /* Add gap between cards */
+}
+
+.card {
+    padding: 10px; /* Reduced padding */
+    border-radius: 10px;
+    font-size: 0.9rem; /* Reduced font size */
+    width: 100%; /* Make the card take full width of its grid column */
+    margin: 0; /* Remove margin */
+    box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+}
+
+.black-card {
+    background-color: black;
+    color: white;
+}
+
+.pink-card {
+    background-color: #aa0047;
+    color: black;
+}
+
+.white-card {
+    background-color: white;
+    color: #aa0047;
+}
+
+.icon {
+    font-size: 30px; /* Reduced icon size */
+}
+
+.card-title {
+    margin-bottom: 5px; /* Reduced margin */
+}
+
+.card-text {
+    margin-bottom: 0; /* Removed margin */
+}
+.delete-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: inherit; /* Match the color of the card */
+    font-size: 1.2rem;
+}

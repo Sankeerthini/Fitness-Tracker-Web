@@ -1,0 +1,84 @@
+<div class="d-flex justify-content-center">
+    <div class="container">
+        <h2 class="mb-4">User Profile</h2>
+        <form (ngSubmit)="onUserProfileSubmit()" class="d-flex flex-wrap justify-content-between">
+            <div class="card m-2 p-3 card-black">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="name">
+                            <i class="fas fa-user"></i> Name
+                        </label>
+                        <input type="text" class="form-control" id="name" [(ngModel)]="user.name" name="name" required>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-2 p-3 card-black">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="height">
+                            <i class="fas fa-ruler-vertical"></i> Height (cm)
+                        </label>
+                        <input type="number" class="form-control" id="height" [(ngModel)]="user.height" name="height" required>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-2 p-3 card-black">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="weight">
+                            <i class="fas fa-weight"></i> Weight (kg)
+                        </label>
+                        <input type="number" class="form-control" id="weight" [(ngModel)]="user.weight" name="weight" required>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-2 p-3 card-black">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="age">
+                            <i class="fas fa-birthday-cake"></i> Age
+                        </label>
+                        <input type="number" class="form-control" id="age" [(ngModel)]="user.age" name="age" required>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 text-center mt-3">
+                <button type="submit" class="btn btn-primary">Update Profile</button>
+            </div>
+        </form>
+
+        <!-- User Profile Statistics Section -->
+        <h2 class="mt-4">User Profile Statistics</h2>
+        <div class="statistics-card card-black">
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-user"></i> <strong>Name: </strong> <span class="stat-value">{{user.name}}</span></li>
+                    <li><i class="fas fa-ruler-vertical"></i> <strong>Height: </strong> <span class="stat-value">{{user.height}} cm</span></li>
+                    <li><i class="fas fa-weight"></i> <strong>Weight: </strong> <span class="stat-value">{{user.weight}} kg</span></li>
+                    <li><i class="fas fa-birthday-cake"></i> <strong>Age: </strong> <span class="stat-value">{{user.age}} years</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Track Your Activities Section -->
+        <h2 class="mt-4">Track Your Activities</h2>
+        <form (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label for="type">Activity Type</label>
+                <input type="text" class="form-control" id="type" [(ngModel)]="activity.type" name="type" required>
+            </div>
+            <div class="form-group">
+                <label for="duration">Duration (minutes)</label>
+                <input type="number" class="form-control" id="duration" [(ngModel)]="activity.duration" name="duration" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Activity</button>
+        </form>
+
+        <h3 class="mt-4">Daily Activities</h3>
+        <ul class="list-group">
+            <li *ngFor="let act of dailyActivities" class="list-group-item">
+                {{ act.type }} - {{ act.duration }} minutes on {{ act.date | date:'short' }}
+            </li>
+        </ul>
+    </div>
+</div>

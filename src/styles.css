@@ -1,0 +1,58 @@
+body {
+    background-color: #aa0047; /* Background color changed to blue */
+    color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: repeating-linear-gradient(45deg, 
+                                                #121212 0%, #121212 10px, 
+                                                transparent 10px, transparent 20px),
+                      repeating-linear-gradient(45deg, 
+                                                #121212 0%, #121212 20px, 
+                                                transparent 20px, transparent 40px),
+                      repeating-linear-gradient(45deg, 
+                                                #121212 0%, #121212 30px, 
+                                                transparent 30px, transparent 60px),
+                      repeating-linear-gradient(45deg, 
+                                                #121212 0%, #121212 40px, 
+                                                transparent 40px, transparent 80px),
+                      repeating-linear-gradient(45deg, 
+                                                #121212 0%, #121212 50px, 
+                                                transparent 50px, transparent 100px),
+                      repeating-linear-gradient(45deg, 
+                                                #121212 0%, #121212 60px, 
+                                                transparent 60px, transparent 120px),
+                      repeating-linear-gradient(45deg, 
+                                                #121212 0%, #121212 70px, 
+                                                transparent 70px, transparent 140px);
+    background-size: 200% 200%;
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+  }
+  
+  .navbar-light .navbar-brand, .navbar-light .nav-link {
+    color: #ffffff;
+  }
+  
+  .btn-primary {
+    background-color: #aa0047;
+    border-color: #aa0047;
+  }
+  
+  .form-control {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: 1px solid #444444;
+  }
+  
+  .list-group-item {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: 1px solid #444444;
+  }

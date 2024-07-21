@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@400;700&display=swap');
+
+.home-container {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.poster {
+  position: relative;
+  margin: 50px auto;
+  max-width: 80%;
+}
+
+.poster img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #aa0047;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.546);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quote .highlight {
+  color: #ffffff;
+}
+
+.extra-content {
+  margin-top: 30px;
+}
+
+.extra-content h3 {
+  font-size: 1.8rem;
+  color: #aa0047;
+}
+
+.extra-content p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .separator {
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 1.5rem; /* Adjust size as needed */
+  }
+  
+  .social-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px; /* Adjust space between icons */
+  }
+  
+  .social-link i {
+    vertical-align: middle;
+    font-size: 1.7rem; /* Adjust icon size */
+  }
+  
+  .social-link:hover i {
+    color: #aa0047; /* Change color on hover if needed */
+  }
+  

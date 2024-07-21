@@ -1,0 +1,98 @@
+.container {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    margin-top: 10px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex: 1 1 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    background-color: #aa0047;
+    border-color: #aa0047;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #000;
+    border-color: #000;
+    color: #fff; /* Ensure the text remains readable */
+}
+
+.card-black {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.card-black .form-control {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.card-black .form-control::placeholder {
+    color: #aaa;
+}
+
+.card-black .form-group label {
+    color: rgb(255, 255, 255);
+}
+
+.card-black .fas {
+    color: #ffffff;
+}
+
+.card.flex-grow-1 {
+    flex: 1 1 100%;
+}
+
+/* New styling for the statistics card */
+.statistics-card {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.statistics-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.statistics-card li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.statistics-card i {
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+/* Styling for the statistics values */
+.stat-value {
+    color: #aa0047; /* Pink color for the values */
+    font-weight: bold;
+}
