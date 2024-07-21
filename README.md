@@ -43,7 +43,7 @@ angular.json is configured to specify build and output settings, with the output
 
 ### Building the Application
 
-The application is built using the Angular CLI with the command ng build --prod --base-href=https://Sankeerthini.github.io/test/.
+The application is built using the Angular CLI with the command ng build --prod --base-href=https://Sankeerthini.github.io/Fitness-Tracker-Web/.
 Production builds are configured to optimize performance and include necessary assets.
 
 ### Deployment
