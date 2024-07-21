@@ -6,6 +6,8 @@ The Fitness Tracker Application is a web-based tool designed to help users manag
 
 [Live Demo](https://sankeerthini.github.io/Fitness-Tracker-Web/)
 
+![Fitness Tracker](images/demo.png)
+
 ## Technical Architecture
 
 ### Framework and Libraries
