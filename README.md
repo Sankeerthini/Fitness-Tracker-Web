@@ -9,8 +9,8 @@ The Fitness Tracker Application is a web-based tool designed to help users manag
 ## Technical Architecture
 
 ### Framework and Libraries
-Angular: Utilized as the primary framework for building a single-page application (SPA), providing a structured approach to component-based development and routing.
-Bootstrap: Employed for responsive design and pre-built styling components to ensure a consistent and accessible user interface.
+- **Angular**: Utilized as the primary framework for building a single-page application (SPA), providing a structured approach to component-based development and routing.
+- **Bootstrap**: Employed for responsive design and pre-built styling components to ensure a consistent and accessible user interface.
 
 ### Key Components
 **Home Page**
@@ -27,8 +27,8 @@ Bootstrap: Employed for responsive design and pre-built styling components to en
 
 **Goals Page**
 
-Facilitates goal-setting with options for number of sets or durations.
-Features Angular components to display goals in a card layout with functionality for adding and removing goals.
+- Facilitates goal-setting with options for number of sets or durations.
+- Features Angular components to display goals in a card layout with functionality for adding and removing goals.
 
 ## Technical Implementation
 
