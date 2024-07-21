@@ -4,6 +4,8 @@
 
 The Fitness Tracker Application is a web-based tool designed to help users manage their fitness activities, track progress, and set personal goals. This Angular application provides a streamlined and efficient user experience, offering features for tracking activities, setting goals, and inputting personal details. The project showcases modern web development practices and leverages Angular's robust framework to deliver a high-performance user interface.
 
+[Live Demo](https://sankeerthini.github.io/Fitness-Tracker-Web/)
+
 ## Technical Architecture
 
 ### Framework and Libraries
